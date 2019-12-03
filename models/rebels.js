@@ -1,4 +1,4 @@
-module.exports = (sequelize, Sequelize, Teams) => {
+module.exports = (sequelize, Sequelize) => {
   return sequelize.define('rebels', {
     id: {
       type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true,
